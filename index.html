@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizzeria Basicò Paz</title>
+    <script type="module" src="/src/main.js"></script>
+    <link rel="stylesheet" href="./src/index.css">
+  </head>
+  <body class="bg-background">
+  <header class="relative pt-10 overflow-auto text-white bg-hero bg-cover bg-center before:content-[''] before:absolute before:inset-0 before:bg-red-950/70 before:z-0">
+    <div class="relative z-10 w-11/12 mx-auto max-w-7xl">
+      <!-- Menú de navegación-->
+      <div class="flex flex-wrap items-center justify-center lg:justify-between gap-7">
+        <h3 class="font-title text-4xl font-semibold">Basicò Paz</h3>
+        <nav class="flex flex-wrap items-center justify-center gap-7 text-nowrap text-center font-semibold uppercase">
+          <a href="menu.html" class="hover:underline">Menu</a>
+          <a href="index.html#sucursales" class="hover:underline">Filiali</a>
+          <a href="index.html#acerca-de" class="hover:underline">Chi siamo</a>
+          <a href="#" class="hover:underline">Contatto</a>
+        </nav>
+      </div>
+      <!-- Contenedor de los textos-->
+       <div class="my-24 text-center lg:mb-52">
+          <p class="mb-4 font-bold uppercase">Pizzeria</p>
+          <h1 class="mb-4 font-title text-6xl lg:text-8xl">Basicò Paz</h1>
+          <p class="font-title text-2xl lg:text-3xl">— Dal 1990 —</p>
+          <div class="mt-10 flex justify-center gap-5 uppercase">
+            <a href="menu.html" class="border border-white/20 px-4 py-2 transition-all hover:border-white">Menu</a>
+            <a href="·" class="border border-white/20 px-4 py-2 transition-all hover:border-white">Contatto</a>
+          </div>
+       </div>      
+    </div>
+  </header>
+
+  <main>
+    <!-- Acerca de -->
+     <section>
+      <div class="my-10 lg:my-0 relative lg:-top-36 w-10/12 max-w-4xl mx-auto ">
+        <img class="w-full relative  lg:left-6" src="./img/acerca-de.png" alt="" id="acerca-de">
+        <div class="bg-white relative lg:-left-6 -top-12 p-5 text-center shadow-md">
+          <h3 class="font-title text-3xl lg:text-5xl mb-3 lg:mb-5 text-primary">Tradizione, amore e sapore.</h3>
+          <p class="leading-8 text-black text-md lg:text-lg">
+              Gusta ogni boccone delle nostre pizze artigianali, preparate con passione e con i migliori ingredienti.  <br />
+              ¡Benvenuto nel tuo nuovo locale preferito!
+          </p>
+        </div>
+      </div>
+     </section>
+
+    <!-- Populares -->
+     <section class="w-11/12 max-w-7xl mx-auto mb-20 mt-0">
+      <!-- Encabezado--> 
+      <div class="mb-14 text-center">
+          <h2 class="mb-4 font-title text-5xl font-bold text-primary">Pizze popolari</h2>
+          <p class="text-lg text-black">Alcune delle nostre migliori pizze</p>
+        </div>
+
+        <!-- Grid-->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-5">
+          <!-- Card-->
+          <div class="mb-5 bg-second shadow-xs">
+            <!-- Thumb-->
+             <div class="aspect-square">
+                <img src="./img/menu/pizza-1.png" class="h-auto w-full" alt="">
+             </div>
+             <!-- Precios-->
+             <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">Peperoni</h3>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Piccolo</p>
+                <p>6.00€</p>
+              </div>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Mediano</p>
+                <p>8.00€</p>
+              </div>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Grande</p>
+                <p>10.00€</p>
+              </div>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Familiare</p>
+                <p>12.00€</p>
+              </div>
+             </div> 
+          </div>
+          <div class="mb-5 bg-second shadow-xs">
+            <!-- Thumb-->
+             <div class="aspect-square">
+                <img src="./img/menu/pizza-2.png" class="h-auto w-full" alt="">
+             </div>
+             <!-- Precios-->
+             <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">Napoletano</h3>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Piccolo</p>
+                <p>6.00€</p>
+              </div>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Mediano</p>
+                <p>8.00€</p>
+              </div>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Grande</p>
+                <p>10.00€</p>
+              </div>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Familiare</p>
+                <p>12.00€</p>
+              </div>
+             </div> 
+          </div>
+          <div class="mb-5 bg-second shadow-xs">
+            <!-- Thumb-->
+             <div class="aspect-square">
+                <img src="./img/menu/pizza-3.png" class="h-auto w-full" alt="">
+             </div>
+             <!-- Precios-->
+             <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">Margherita</h3>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Piccolo</p>
+                <p>4.00€</p>
+              </div>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Mediano</p>
+                <p>6.00€</p>
+              </div>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Grande</p>
+                <p>8.00€</p>
+              </div>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Familiare</p>
+                <p>10.00€</p>
+              </div>
+             </div> 
+          </div>
+          <div class="mb-5 bg-second shadow-xs">
+            <!-- Thumb-->
+             <div class="aspect-square">
+                <img src="./img/menu/pizza-4.png" class="h-auto w-full" alt="">
+             </div>
+             <!-- Precios-->
+             <div class="flex flex-col">
+              <h3 class="p-2 text-center text-xl font-bold text-primary">Quattro formaggi</h3>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Piccolo</p>
+                <p>6.00€</p>
+              </div>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Mediano</p>
+                <p>8.00€</p>
+              </div>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Grande</p>
+                <p>10.00€</p>
+              </div>
+              <div class="flex justify-between border-b border-black/10 p-2 text-sm md:text-base">
+                <p>Familiare</p>
+                <p>12.00€</p>
+              </div>
+             </div> 
+          </div>
+        </div>
+
+        <!-- Boton de Menu -->
+        <div class="mt-2 flex justify-center">
+          <a href="menu.html" class="block border border-primary p-5 font-bold uppercase transition hover:bg-primary hover:text-white">Vedi il menu completo</a>
+        </div>
+     </section>
+
+    <!-- Galeria -->
+    <section class="mb-14">
+      <div class="grid grid-cols-2 md:grid-cols-4">
+        <img src="./img/galeria/galeria-1.png" alt="" class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0">
+        <img src="./img/galeria/galeria-2.png" alt="" class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0">
+        <img src="./img/galeria/galeria-3.png" alt="" class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0">
+        <img src="./img/galeria/galeria-4.png" alt="" class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0">
+        <img src="./img/galeria/galeria-5.png" alt="" class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0">
+        <img src="./img/galeria/galeria-6.png" alt="" class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0">
+        <img src="./img/galeria/galeria-7.png" alt="" class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0">
+        <img src="./img/galeria/galeria-8.png" alt="" class="w-full aspect-square opacity-90 hover:opacity-100 transition grayscale-50 hover:grayscale-0">
+      </div>
+    </section>
+
+    <!-- Sucursales -->
+    <section class="mb-14" id="sucursales">
+      <!-- Contenedor -->
+      <div class=" w-11/12 max-w-7xl mx-auto">
+        <!-- Encabezado -->
+        <div class="mb-14 text-center">
+          <h2 class="mb-4 font-title text-5xl font-bold text-primary">Filiali</h2>
+          <p class="text-lg text-black">Venite a trovarci presso le nostre filiali</p>
+        </div>
+        <!-- Grid -->  
+        <div class="flex flex-col gap-5">
+          <!-- Sucursal #1 --> 
+          <div class="grid grid-cols-3 gap-0 md:gap-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.3909050178045!2d15.060510027136749!3d38.06127651016935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x131420f22ad02da3%3A0x91291ee1d440cf58!2sVia%20Vittorio%20Emanuele%20III%2C%20161%2C%2098060%20Basic%C3%B2%20ME%2C%20Italia!5e0!3m2!1ses!2ses!4v1760805961555!5m2!1ses!2ses" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            class="h-full w-full col-span-full md:col-span-2 aspect-video md:aspect-auto"
+            ></iframe>
+            <div class="col-span-full md:col-span-1 flex flex-col gap-5 p-5 text-white bg-primary">
+              <p class="text-2xl">Bàsico, Messina, Italia</p>
+              <p class="italic">Via Vittorio Emanuele III, 161/165</p>
+              <p class="italic">C.P 98060</p>
+              <p class="flex gap-2 items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0"/>
+                </svg>
+                +39 094 185 255
+              </p>
+            </div>
+          </div>
+
+          <!-- Sucursal #2 --> 
+          <div class="grid grid-cols-3 gap-0 md:gap-5">
+            <div class="col-span-full md:col-span-1 flex flex-col gap-5 p-5 text-white bg-primary order-2 md:order-1">
+              <p class="text-2xl">Falcone, Messina, Italia</p>
+              <p class="italic">Via Roma, 155</p>
+              <p class="italic">C.P 98060</p>
+              <p class="flex gap-2 items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0"/>
+                </svg>
+                +39 941 349 140
+              </p>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12555.036293653762!2d15.070392022897007!3d38.122539114328326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1314271dcfbf8555%3A0x72b175d32f69f058!2sVia%20Roma%2C%20145%2C%2098060%20Falcone%20ME%2C%20Italia!5e0!3m2!1ses!2ses!4v1760805715057!5m2!1ses!2ses" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            class="h-full w-full col-span-full md:col-span-2 aspect-video md:aspect-auto order-2 md:order-1"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-primary p-3 text-center text-sm text-white">
+    <p>© 2025 Pizzeria Basicò Paz. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
